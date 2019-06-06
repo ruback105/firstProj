@@ -21,6 +21,7 @@ public class TetLogin {
 		obj.NameID().sendKeys("123");
 		obj.PasswordID().sendKeys("456");
 		obj.submit().click();
+		System.out.print("ne rabotaetX22222");
 	}
 
 }
