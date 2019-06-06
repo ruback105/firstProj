@@ -12,6 +12,7 @@ public class TetLogin {
 	@Test
 	public void Login() 
 	{
+System.out.print("hello");
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\apusko.la\\Desktop\\testing\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get(
